@@ -1,0 +1,25 @@
+	# Arquivos gerados pelo Python e pelo Django
+*.pyc
+pycache/
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+
+# Arquivos de banco de dados
+db.sqlite3
+
+# Arquivos de mídia e arquivos estáticos
+media/
+static/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração local
+.env
+.env.*
+local_settings.py
+
+# Arquivos de chaves e tokens de API
+.secrets/
